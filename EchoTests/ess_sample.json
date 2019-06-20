@@ -1,0 +1,580 @@
+{
+  "service": {
+    "id": "bbc_one_london",
+    "name": "BBC One London"
+  },
+  "items": [
+    {
+      "id": "p03h5gr8",
+      "version": {
+        "id": "b070hs9x"
+      },
+      "episode": {
+        "id": "b070hs9z",
+        "title": "Wanted Down Under Revisited: Series 9 - Episode 6 - Baum Family"
+      },
+      "brand": {
+        "title": "Wanted Down Under Revisited"
+      },
+      "published_time": {
+        "start": "2016-02-12T11:00:00.000Z",
+        "end": "2016-02-12T11:45:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grb",
+      "version": {
+        "id": "b070r6kg"
+      },
+      "episode": {
+        "id": "b070r6kn",
+        "title": "Emergency Rescue Down Under - Episode 15"
+      },
+      "brand": {},
+      "published_time": {
+        "start": "2016-02-12T11:45:00.000Z",
+        "end": "2016-02-12T12:15:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grc",
+      "version": {
+        "id": "b070rhjq"
+      },
+      "episode": {
+        "id": "b070rhjx",
+        "title": "Bargain Hunt: Series 43 - Episode 6 - Epsom 1"
+      },
+      "brand": {
+        "title": "Bargain Hunt"
+      },
+      "published_time": {
+        "start": "2016-02-12T12:15:00.000Z",
+        "end": "2016-02-12T13:00:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grd",
+      "version": {
+        "id": "b06zv5hd"
+      },
+      "episode": {
+        "id": "b06zv5j5",
+        "title": "BBC News at One - 12/02/2016"
+      },
+      "brand": {
+        "title": "BBC News at One"
+      },
+      "published_time": {
+        "start": "2016-02-12T13:00:00.000Z",
+        "end": "2016-02-12T13:30:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grf",
+      "version": {
+        "id": "b06zvhwk"
+      },
+      "episode": {
+        "id": "b06zvhwm",
+        "title": "BBC London News - 12/02/2016"
+      },
+      "brand": {
+        "title": "BBC London News"
+      },
+      "published_time": {
+        "start": "2016-02-12T13:30:00.000Z",
+        "end": "2016-02-12T13:45:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grg",
+      "version": {
+        "id": "b070h5sp"
+      },
+      "episode": {
+        "id": "b070h5tc",
+        "title": "Doctors: Series 17 - Episode 182 - A Ghost at the Feast"
+      },
+      "brand": {
+        "title": "Doctors"
+      },
+      "published_time": {
+        "start": "2016-02-12T13:45:00.000Z",
+        "end": "2016-02-12T14:15:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grh",
+      "version": {
+        "id": "b04ykfgz"
+      },
+      "episode": {
+        "id": "b04ykfkk",
+        "title": "Father Brown: Series 3 - Episode 10 - The Judgement of Man"
+      },
+      "brand": {
+        "title": "Father Brown"
+      },
+      "published_time": {
+        "start": "2016-02-12T14:15:00.000Z",
+        "end": "2016-02-12T15:00:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grk",
+      "version": {
+        "id": "b038nzy4"
+      },
+      "episode": {
+        "id": "b038nzyd",
+        "title": "Escape to the Country: Series 14 - Episode 5 - Nottinghamshire"
+      },
+      "brand": {
+        "title": "Escape to the Country"
+      },
+      "published_time": {
+        "start": "2016-02-12T15:00:00.000Z",
+        "end": "2016-02-12T15:45:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grl",
+      "version": {
+        "id": "b070nmy4"
+      },
+      "episode": {
+        "id": "b070nnxy",
+        "title": "Holiday of My Lifetime with Len Goodman: Series 2 - Episode 10"
+      },
+      "brand": {
+        "title": "Holiday of My Lifetime with Len Goodman"
+      },
+      "published_time": {
+        "start": "2016-02-12T15:45:00.000Z",
+        "end": "2016-02-12T16:30:00.000Z"
+      }
+    },
+    {
+      "id": "p03hd49z",
+      "version": {
+        "id": "b0713pf9"
+      },
+      "episode": {
+        "id": "b04yjpwd",
+        "title": "Antiques Road Trip: Series 10 - Episode 10"
+      },
+      "brand": {
+        "title": "Antiques Road Trip"
+      },
+      "published_time": {
+        "start": "2016-02-12T16:30:00.000Z",
+        "end": "2016-02-12T17:15:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grn",
+      "version": {
+        "id": "b0464qpw"
+      },
+      "episode": {
+        "id": "b0464qpy",
+        "title": "Pointless: Series 11 - Episode 27"
+      },
+      "brand": {
+        "title": "Pointless"
+      },
+      "published_time": {
+        "start": "2016-02-12T17:15:00.000Z",
+        "end": "2016-02-12T18:00:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grp",
+      "version": {
+        "id": "b06zv5h6"
+      },
+      "episode": {
+        "id": "b06zv5jc",
+        "title": "BBC News at Six - 12/02/2016"
+      },
+      "brand": {
+        "title": "BBC News at Six"
+      },
+      "published_time": {
+        "start": "2016-02-12T18:00:00.000Z",
+        "end": "2016-02-12T18:30:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grq",
+      "version": {
+        "id": "b06zvhwg"
+      },
+      "episode": {
+        "id": "b06zvhwp",
+        "title": "BBC London News - 12/02/2016"
+      },
+      "brand": {
+        "title": "BBC London News"
+      },
+      "published_time": {
+        "start": "2016-02-12T18:30:00.000Z",
+        "end": "2016-02-12T19:00:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grr",
+      "version": {
+        "id": "b06zv5h0"
+      },
+      "episode": {
+        "id": "b06zv5jh",
+        "title": "The One Show - 12/02/2016"
+      },
+      "brand": {
+        "title": "The One Show"
+      },
+      "published_time": {
+        "start": "2016-02-12T19:00:00.000Z",
+        "end": "2016-02-12T19:30:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grs",
+      "version": {
+        "id": "b070svtc"
+      },
+      "episode": {
+        "id": "b070svx5",
+        "title": "A Question of Sport: Series 45 - Episode 20"
+      },
+      "brand": {
+        "title": "A Question of Sport"
+      },
+      "published_time": {
+        "start": "2016-02-12T19:30:00.000Z",
+        "end": "2016-02-12T19:57:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grt",
+      "version": {
+        "id": "b06zv5gx"
+      },
+      "episode": {
+        "id": "b06zv5jl",
+        "title": "BBC News and Regional News - 12/02/2016"
+      },
+      "brand": {
+        "title": "BBC News and Regional News"
+      },
+      "published_time": {
+        "start": "2016-02-12T19:57:00.000Z",
+        "end": "2016-02-12T20:00:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grv",
+      "version": {
+        "id": "b070mty3"
+      },
+      "episode": {
+        "id": "b070mtzh",
+        "title": "EastEnders - 12/02/2016"
+      },
+      "brand": {
+        "title": "EastEnders"
+      },
+      "published_time": {
+        "start": "2016-02-12T20:00:00.000Z",
+        "end": "2016-02-12T20:30:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grw",
+      "version": {
+        "id": "b070rfrn"
+      },
+      "episode": {
+        "id": "b070rfs5",
+        "title": "Dickensian - Episode 17"
+      },
+      "brand": {},
+      "published_time": {
+        "start": "2016-02-12T20:30:00.000Z",
+        "end": "2016-02-12T21:00:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grx",
+      "version": {
+        "id": "b06zqwbr"
+      },
+      "episode": {
+        "id": "b06zqwbx",
+        "title": "Shetland: Series 3 - Episode 4"
+      },
+      "brand": {
+        "title": "Shetland"
+      },
+      "published_time": {
+        "start": "2016-02-12T21:00:00.000Z",
+        "end": "2016-02-12T22:00:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5gry",
+      "version": {
+        "id": "b06zv5gp"
+      },
+      "episode": {
+        "id": "b06zv5jr",
+        "title": "BBC News at Ten - 12/02/2016"
+      },
+      "brand": {
+        "title": "BBC News at Ten"
+      },
+      "published_time": {
+        "start": "2016-02-12T22:00:00.000Z",
+        "end": "2016-02-12T22:25:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5grz",
+      "version": {
+        "id": "b06zvhwc"
+      },
+      "episode": {
+        "id": "b06zvhwr",
+        "title": "BBC London News - 12/02/2016"
+      },
+      "brand": {
+        "title": "BBC London News"
+      },
+      "published_time": {
+        "start": "2016-02-12T22:25:00.000Z",
+        "end": "2016-02-12T22:32:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5gs0",
+      "version": {
+        "id": "b06zv5gg"
+      },
+      "episode": {
+        "id": "b06zv5jw",
+        "title": "BBC Weather - 12/02/2016"
+      },
+      "brand": {
+        "title": "BBC Weather"
+      },
+      "published_time": {
+        "start": "2016-02-12T22:32:00.000Z",
+        "end": "2016-02-12T22:35:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5gs1",
+      "version": {
+        "id": "b070pk6h"
+      },
+      "episode": {
+        "id": "b070pk6t",
+        "title": "The Graham Norton Show: Series 18 - Episode 18"
+      },
+      "brand": {
+        "title": "The Graham Norton Show"
+      },
+      "published_time": {
+        "start": "2016-02-12T22:35:00.000Z",
+        "end": "2016-02-12T23:25:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5gs2",
+      "version": {
+        "id": "b02xdr8t"
+      },
+      "episode": {
+        "id": "b02xdr95",
+        "title": "Would I Lie to You?: Series 7 - Episode 6"
+      },
+      "brand": {
+        "title": "Would I Lie to You?"
+      },
+      "published_time": {
+        "start": "2016-02-12T23:25:00.000Z",
+        "end": "2016-02-12T23:55:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5gs3",
+      "version": {
+        "id": "b03t7c6n"
+      },
+      "episode": {
+        "id": "b03t7c8y",
+        "title": "The Apprentice USA: Celebrity Apprentice 5 - Episode 4 - Failure to Launch"
+      },
+      "brand": {
+        "title": "The Apprentice USA"
+      },
+      "published_time": {
+        "start": "2016-02-12T23:55:00.000Z",
+        "end": "2016-02-13T01:20:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5gs4",
+      "version": {
+        "id": "b06zv5gc"
+      },
+      "episode": {
+        "id": "b06zv5jz",
+        "title": "Weather for the Week Ahead - 13/02/2016"
+      },
+      "brand": {
+        "title": "Weather for the Week Ahead"
+      },
+      "published_time": {
+        "start": "2016-02-13T01:20:00.000Z",
+        "end": "2016-02-13T01:25:00.000Z"
+      }
+    },
+    {
+      "id": "p03h5gs6",
+      "version": {
+        "id": "b06zv5g8"
+      },
+      "episode": {
+        "id": "b06zv5k1",
+        "title": "Joins BBC News - 13/02/2016"
+      },
+      "brand": {
+        "title": "Joins BBC News"
+      },
+      "published_time": {
+        "start": "2016-02-13T01:25:00.000Z",
+        "end": "2016-02-13T06:00:00.000Z"
+      }
+    },
+    {
+      "id": "p03hksvy",
+      "version": {
+        "id": "b06zv5kx"
+      },
+      "episode": {
+        "id": "b06zv5l0",
+        "title": "Breakfast - 13/02/2016"
+      },
+      "brand": {
+        "title": "Breakfast"
+      },
+      "published_time": {
+        "start": "2016-02-13T06:00:00.000Z",
+        "end": "2016-02-13T10:00:00.000Z"
+      }
+    },
+    {
+      "id": "p03hksvz",
+      "version": {
+        "id": "b0718bmc"
+      },
+      "episode": {
+        "id": "b0718bms",
+        "title": "Saturday Kitchen - 13/02/2016"
+      },
+      "brand": {
+        "title": "Saturday Kitchen"
+      },
+      "published_time": {
+        "start": "2016-02-13T10:00:00.000Z",
+        "end": "2016-02-13T11:30:00.000Z"
+      }
+    },
+    {
+      "id": "p03hy8gc",
+      "version": {
+        "id": "b071t8sn"
+      },
+      "episode": {
+        "id": "b070n7j0",
+        "title": "Mary Berry's Foolproof Cooking - Episode 3"
+      },
+      "brand": {},
+      "published_time": {
+        "start": "2016-02-13T11:30:00.000Z",
+        "end": "2016-02-13T12:00:00.000Z"
+      }
+    },
+    {
+      "id": "p03hksw1",
+      "version": {
+        "id": "b06zv5kp"
+      },
+      "episode": {
+        "id": "b06zv5l4",
+        "title": "BBC Weekend News - 13/02/2016"
+      },
+      "brand": {
+        "title": "BBC Weekend News"
+      },
+      "published_time": {
+        "start": "2016-02-13T12:00:00.000Z",
+        "end": "2016-02-13T12:10:00.000Z"
+      }
+    },
+    {
+      "id": "p03hksw2",
+      "version": {
+        "id": "b0717k47"
+      },
+      "episode": {
+        "id": "b0717nvf",
+        "title": "Football Focus - 13/02/2016"
+      },
+      "brand": {
+        "title": "Football Focus"
+      },
+      "published_time": {
+        "start": "2016-02-13T12:10:00.000Z",
+        "end": "2016-02-13T12:50:00.000Z"
+      }
+    },
+    {
+      "id": "p03hksw3",
+      "version": {
+        "id": "b071c8c3"
+      },
+      "episode": {
+        "id": "b071c8c5",
+        "title": "Saturday Sportsday - 13/02/2016"
+      },
+      "brand": {
+        "title": "Saturday Sportsday"
+      },
+      "published_time": {
+        "start": "2016-02-13T12:50:00.000Z",
+        "end": "2016-02-13T13:00:00.000Z"
+      }
+    },
+    {
+      "id": "p03hksw4",
+      "version": {
+        "id": "b04ww4f2"
+      },
+      "episode": {
+        "id": "b04ww4f4",
+        "title": "Bargain Hunt: Hour Specials - Episode 22 - Builth Wells 63"
+      },
+      "brand": {
+        "title": "Bargain Hunt"
+      },
+      "published_time": {
+        "start": "2016-02-13T13:00:00.000Z",
+        "end": "2016-02-13T14:00:00.000Z"
+      }
+    }
+  ]
+}

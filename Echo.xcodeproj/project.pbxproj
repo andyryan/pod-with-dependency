@@ -1,0 +1,1173 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0F7314A9E1C35D882D669F /* Pods_EchoTVOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E8814D6F8775DC7A7C3916 /* Pods_EchoTVOS.framework */; };
+		641D6BB22135686B004ED8C8 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641D6BB12135686B004ED8C8 /* GeneratedMocks.swift */; };
+		641D6BB42135A6FE004ED8C8 /* OnDemandProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641D6BB32135A6FE004ED8C8 /* OnDemandProtocolMock.swift */; };
+		641D6BBC2135EB69004ED8C8 /* SpringStreamProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641D6BBB2135EB69004ED8C8 /* SpringStreamProtocolMock.swift */; };
+		641D6BBE2135EF27004ED8C8 /* EchoDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641D6BBD2135EF27004ED8C8 /* EchoDelegateMock.swift */; };
+		641D6BC02135F4B8004ED8C8 /* UserPromiseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641D6BBF2135F4B8004ED8C8 /* UserPromiseMock.swift */; };
+		641D6BCA2137097C004ED8C8 /* Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641D6BC92137097C004ED8C8 /* Tracker.framework */; };
+		641D6BCB2137097C004ED8C8 /* Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641D6BC92137097C004ED8C8 /* Tracker.framework */; };
+		641D6BCD21371741004ED8C8 /* Tracker.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 641D6BC92137097C004ED8C8 /* Tracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6427E7D32195ACC300422445 /* EchoClientUserStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6427E7D22195ACC300422445 /* EchoClientUserStateTests.swift */; };
+		6427E7DA21A5905400422445 /* LabelCleanserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6427E7D921A5905400422445 /* LabelCleanserTests.swift */; };
+		645E0FA9209724D40075197A /* EchoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95F670675DA8AC449E81F /* EchoClient.swift */; };
+		64A75F6021E77F480003C1F0 /* EchoTVOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A75F5E21E77F480003C1F0 /* EchoTVOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64A75FA021E77F7F0003C1F0 /* ATInternetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641D6BE82139379D004ED8C8 /* ATInternetDelegate.swift */; };
+		64A75FA121E77F7F0003C1F0 /* ATInternetTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641D6BED2139889D004ED8C8 /* ATInternetTag.swift */; };
+		64A75FA221E77F830003C1F0 /* ComScoreDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95B62B18AC0558047F584 /* ComScoreDelegate.swift */; };
+		64A75FA321E77F830003C1F0 /* ComScoreAppTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D957F53B2DF264C2433908 /* ComScoreAppTag.swift */; };
+		64A75FA421E77F830003C1F0 /* ComScoreStreamSense.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95E0FBD8B94C22CFFF292 /* ComScoreStreamSense.swift */; };
+		64A75FA521E77F870003C1F0 /* SpringStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95F95DEC51BE251EF1F17 /* SpringStream.swift */; };
+		64A75FA621E77F870003C1F0 /* SpringDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95608D7C419A56CF92253 /* SpringDelegate.swift */; };
+		64A75FAF21E77F940003C1F0 /* EchoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95F670675DA8AC449E81F /* EchoClient.swift */; };
+		64A75FB621E77FF60003C1F0 /* tvOSTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A75FB521E77FF60003C1F0 /* tvOSTracker.framework */; };
+		64A75FB921E7800C0003C1F0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1A68701CF634090036D5F5 /* SystemConfiguration.framework */; };
+		64A75FBF21EF43480003C1F0 /* tvOSKMA_SpringStreams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A75FBE21EF43470003C1F0 /* tvOSKMA_SpringStreams.framework */; };
+		64AFF75A21428A1900F4330B /* ATInternetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641D6BE82139379D004ED8C8 /* ATInternetDelegate.swift */; };
+		64AFF75B21428A1A00F4330B /* ATInternetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641D6BE82139379D004ED8C8 /* ATInternetDelegate.swift */; };
+		64AFF75C21428A1D00F4330B /* ATInternetTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641D6BED2139889D004ED8C8 /* ATInternetTag.swift */; };
+		64AFF75D21428A1E00F4330B /* ATInternetTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641D6BED2139889D004ED8C8 /* ATInternetTag.swift */; };
+		64AFF75E2142DB1F00F4330B /* ATInternetDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641D6BEA21394222004ED8C8 /* ATInternetDelegateTests.swift */; };
+		64B7A65620937383005DA18B /* EchoConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B7A65520937383005DA18B /* EchoConfigTests.swift */; };
+		64DB7E8722BB80A2006CF22E /* ObjCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DB7E8522BB80A2006CF22E /* ObjCHelper.m */; };
+		64DB7E8822BB80A2006CF22E /* ObjCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DB7E8522BB80A2006CF22E /* ObjCHelper.m */; };
+		64DB7E8922BB80A2006CF22E /* ObjCHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DB7E8622BB80A2006CF22E /* ObjCHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64DB7E8A22BB80A2006CF22E /* ObjCHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DB7E8622BB80A2006CF22E /* ObjCHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D7FF01B6750665B8D6A1DEF /* BBCUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7FFAC18114FBB02157DCB2 /* BBCUserTests.swift */; };
+		8D7FF2039BF3588CC10B2F49 /* LabelMatchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7FFC04B1D94E7B0887BEBA /* LabelMatchers.swift */; };
+		8D7FF8A4BDF7EC4751E0F322 /* VersionNumberComparatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7FF3A9A01FDDB515F0AD32 /* VersionNumberComparatorTests.swift */; };
+		8D7FFA1F01A2132119270D47 /* ComScoreDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7FF7593A1134D966FBEFE8 /* ComScoreDelegateTests.swift */; };
+		8D7FFAF95EA11163AA82E03C /* OnDemandBrokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7FFD20509061A0203F7648 /* OnDemandBrokerTests.swift */; };
+		8D7FFB0933CF566F5DEFB627 /* UserPromiseHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7FFBDE6DFD81D8F43C5D21 /* UserPromiseHelperTests.swift */; };
+		9B1A680F1CF6202C0036D5F5 /* Echo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1A680E1CF6202C0036D5F5 /* Echo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B1A68161CF6202C0036D5F5 /* Echo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1A680B1CF6202C0036D5F5 /* Echo.framework */; };
+		9B1A68711CF634090036D5F5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1A68701CF634090036D5F5 /* SystemConfiguration.framework */; };
+		A3814AC0C8EC48A01D64C75E /* Pods_EchoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0D1BA3F85B68A02E2C935E /* Pods_EchoTests.framework */; };
+		B9D9507CC7EF3D7DEA585A54 /* PlayerDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95E2FAC2FD7739E45FBFB /* PlayerDelegateMock.swift */; };
+		B9D951CC55BADBAE2F12E847 /* ComScoreDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95B62B18AC0558047F584 /* ComScoreDelegate.swift */; };
+		B9D951D6A61F02BEDE84432F /* ComScoreStreamSense.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95E0FBD8B94C22CFFF292 /* ComScoreStreamSense.swift */; };
+		B9D952031B99FBEF08DB69B9 /* ScheduleMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D9551F29569E059AEAAA6D /* ScheduleMock.swift */; };
+		B9D95275F2ED1AE1635C29AF /* SpringStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95F95DEC51BE251EF1F17 /* SpringStream.swift */; };
+		B9D953B842822B2AA792CA55 /* EchoClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D954B215AB4459D56BDAEC /* EchoClientTests.swift */; };
+		B9D953DE2D983CFDB36F5DEB /* LiveProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95DFBBC8C1B9760DA82D0 /* LiveProtocolMock.swift */; };
+		B9D954D7C57B08F73A92E42A /* EchoClientLiveStreamingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95FD993A7EACB37C6D603 /* EchoClientLiveStreamingTests.swift */; };
+		B9D955AA609756BEE5066008 /* ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D950DAAE119296BACDA891 /* ScheduleTests.swift */; };
+		B9D955C0A5FBD08791326004 /* ComScoreAppTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D957F53B2DF264C2433908 /* ComScoreAppTag.swift */; };
+		B9D9563AFAE093384E53A838 /* ComScoreStreamSense.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95E0FBD8B94C22CFFF292 /* ComScoreStreamSense.swift */; };
+		B9D9563D9943FCD66D08864B /* LiveBrokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95C62A798A1895DF7FE9D /* LiveBrokerTests.swift */; };
+		B9D956EAF63AAE961E8C946F /* MockClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D9561EEB36A9B915467EFB /* MockClock.swift */; };
+		B9D956FC055362186D5F77E0 /* HttpClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95F19EAA86207D9C789F3 /* HttpClientMock.swift */; };
+		B9D9578381D79DA071379A07 /* PlayheadMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D956B0EB07E1B36E86CD02 /* PlayheadMock.swift */; };
+		B9D9589DEA3713EAF42F89F2 /* SpringStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95F95DEC51BE251EF1F17 /* SpringStream.swift */; };
+		B9D95A26658F7FF09BC0CF60 /* SpringDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95608D7C419A56CF92253 /* SpringDelegate.swift */; };
+		B9D95B4CB64E51B8A3A184D1 /* ComScoreAppTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D957F53B2DF264C2433908 /* ComScoreAppTag.swift */; };
+		B9D95D82ADFF850EA9784030 /* EchoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95F670675DA8AC449E81F /* EchoClient.swift */; };
+		B9D95EC2A10801B9A8FE4602 /* SpringDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95608D7C419A56CF92253 /* SpringDelegate.swift */; };
+		B9D95EEEA1F7D4E1A16CE757 /* ComScoreDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95B62B18AC0558047F584 /* ComScoreDelegate.swift */; };
+		B9D95F367D92D24A436CCDC7 /* ess_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = B9D95EADCB68FAD4DEAE436A /* ess_sample.json */; };
+		B9D95FCF0C0073D1506B7FCE /* EssUrlHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95B8DF3425B90A0C2701A /* EssUrlHelperTests.swift */; };
+		B9D95FD69270230E934E9236 /* PlayheadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D95D98C37EE61C5FA4EEEF /* PlayheadTests.swift */; };
+		C0A73904F29B741D55FF5949 /* SpringDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A735839F4506F7B9C42FED /* SpringDelegateTests.swift */; };
+		C0A73A1E958CBD537A3E6318 /* BrokerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A735485BC8A877F3E6A17A /* BrokerMock.swift */; };
+		FBF1CCB31E4B12E400E38A7F /* KMA_StreamMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1CCB21E4B12E400E38A7F /* KMA_StreamMock.swift */; };
+		FC0629D11EFBD12F00FBCBE6 /* LiveBrokerHeartbeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0629D01EFBD12F00FBCBE6 /* LiveBrokerHeartbeatTests.swift */; };
+		FC098BE61E65D3E40066FA36 /* MediaIdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC098BE51E65D3E40066FA36 /* MediaIdTests.swift */; };
+		FC272EC91F9E4DB600DBF540 /* ComScore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC272EC71F9E4DB000DBF540 /* ComScore.framework */; };
+		FC272ECA1F9E4DB600DBF540 /* KMA_SpringStreams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC272EC81F9E4DB000DBF540 /* KMA_SpringStreams.framework */; };
+		FC272ECB1F9E4DBA00DBF540 /* ComScore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC272EC71F9E4DB000DBF540 /* ComScore.framework */; };
+		FC272ECC1F9E4DBA00DBF540 /* KMA_SpringStreams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC272EC81F9E4DB000DBF540 /* KMA_SpringStreams.framework */; };
+		FCC848E71E5EF0C6006F3803 /* MediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC848E61E5EF0C6006F3803 /* MediaTests.swift */; };
+		FCCA443A1EAF6D6000C18505 /* EchoClientAVBehavioursTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A735AC3F68D04379E45E10 /* EchoClientAVBehavioursTests.swift */; };
+		FCCA443B1EAF6D6000C18505 /* EchoClientAppBehaviourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A738364FDB48CDC994CA09 /* EchoClientAppBehaviourTests.swift */; };
+		FCECD5E5200658C900B421C5 /* RemedialUserPromiseHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCECD5E4200658C900B421C5 /* RemedialUserPromiseHelperTests.swift */; };
+		FF756A1B224003B100B31C2B /* EchoReportingProfilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF756A1A224003B100B31C2B /* EchoReportingProfilesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B1A68171CF6202C0036D5F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B1A68021CF6202C0036D5F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B1A680A1CF6202C0036D5F5;
+			remoteInfo = Echo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		641D6BCC21371735004ED8C8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				641D6BCD21371741004ED8C8 /* Tracker.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641D6BD9213719CC004ED8C8 /* Copy ATI Symbols */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy ATI Symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648DE9C721305DA2008AB96B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		362D59594CEBF601A1ECFC44 /* Pods-EchoTVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EchoTVOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-EchoTVOS/Pods-EchoTVOS.release.xcconfig"; sourceTree = "<group>"; };
+		641D6BB12135686B004ED8C8 /* GeneratedMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
+		641D6BB32135A6FE004ED8C8 /* OnDemandProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDemandProtocolMock.swift; sourceTree = "<group>"; };
+		641D6BBB2135EB69004ED8C8 /* SpringStreamProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringStreamProtocolMock.swift; sourceTree = "<group>"; };
+		641D6BBD2135EF27004ED8C8 /* EchoDelegateMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoDelegateMock.swift; sourceTree = "<group>"; };
+		641D6BBF2135F4B8004ED8C8 /* UserPromiseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPromiseMock.swift; sourceTree = "<group>"; };
+		641D6BC92137097C004ED8C8 /* Tracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tracker.framework; path = Libraries/Tracker.framework; sourceTree = "<group>"; };
+		641D6BE82139379D004ED8C8 /* ATInternetDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATInternetDelegate.swift; sourceTree = "<group>"; };
+		641D6BEA21394222004ED8C8 /* ATInternetDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATInternetDelegateTests.swift; sourceTree = "<group>"; };
+		641D6BED2139889D004ED8C8 /* ATInternetTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATInternetTag.swift; sourceTree = "<group>"; };
+		6427E7D22195ACC300422445 /* EchoClientUserStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoClientUserStateTests.swift; sourceTree = "<group>"; };
+		6427E7D921A5905400422445 /* LabelCleanserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCleanserTests.swift; sourceTree = "<group>"; };
+		64A75F5C21E77F480003C1F0 /* EchoTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EchoTVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A75F5E21E77F480003C1F0 /* EchoTVOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EchoTVOS.h; sourceTree = "<group>"; };
+		64A75F5F21E77F480003C1F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A75FB521E77FF60003C1F0 /* tvOSTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tvOSTracker.framework; path = Libraries/tvOSTracker.framework; sourceTree = "<group>"; };
+		64A75FBE21EF43470003C1F0 /* tvOSKMA_SpringStreams.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tvOSKMA_SpringStreams.framework; path = Libraries/tvOSKMA_SpringStreams.framework; sourceTree = "<group>"; };
+		64B7A65520937383005DA18B /* EchoConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoConfigTests.swift; sourceTree = "<group>"; };
+		64DB7E8522BB80A2006CF22E /* ObjCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjCHelper.m; path = "../../../Projects/echo-client-ios-swift/Echo/Utils/ObjCHelper.m"; sourceTree = "<group>"; };
+		64DB7E8622BB80A2006CF22E /* ObjCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjCHelper.h; path = "../../../Projects/echo-client-ios-swift/Echo/Utils/ObjCHelper.h"; sourceTree = "<group>"; };
+		8D7FF3A9A01FDDB515F0AD32 /* VersionNumberComparatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionNumberComparatorTests.swift; sourceTree = "<group>"; };
+		8D7FF7593A1134D966FBEFE8 /* ComScoreDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComScoreDelegateTests.swift; sourceTree = "<group>"; };
+		8D7FFAC18114FBB02157DCB2 /* BBCUserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBCUserTests.swift; sourceTree = "<group>"; };
+		8D7FFBDE6DFD81D8F43C5D21 /* UserPromiseHelperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPromiseHelperTests.swift; sourceTree = "<group>"; };
+		8D7FFC04B1D94E7B0887BEBA /* LabelMatchers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelMatchers.swift; sourceTree = "<group>"; };
+		8D7FFD20509061A0203F7648 /* OnDemandBrokerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnDemandBrokerTests.swift; sourceTree = "<group>"; };
+		9B1A680B1CF6202C0036D5F5 /* Echo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Echo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1A680E1CF6202C0036D5F5 /* Echo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Echo.h; sourceTree = "<group>"; };
+		9B1A68101CF6202C0036D5F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1A68151CF6202C0036D5F5 /* EchoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EchoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1A681C1CF6202C0036D5F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1A68701CF634090036D5F5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9B6CFEDE1D13520900E0045F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B6CFEE01D13543A00E0045F /* EchoTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EchoTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		9C6B1FDAF735A36C27F0C769 /* Pods-EchoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EchoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EchoTests/Pods-EchoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB0D1BA3F85B68A02E2C935E /* Pods_EchoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EchoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4ABE7E9D75D3541AAE7508 /* Pods-EchoTVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EchoTVOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EchoTVOS/Pods-EchoTVOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B9D950DAAE119296BACDA891 /* ScheduleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTests.swift; sourceTree = "<group>"; };
+		B9D954B215AB4459D56BDAEC /* EchoClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EchoClientTests.swift; sourceTree = "<group>"; };
+		B9D9551F29569E059AEAAA6D /* ScheduleMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleMock.swift; sourceTree = "<group>"; };
+		B9D95608D7C419A56CF92253 /* SpringDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringDelegate.swift; sourceTree = "<group>"; };
+		B9D9561EEB36A9B915467EFB /* MockClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockClock.swift; sourceTree = "<group>"; };
+		B9D956B0EB07E1B36E86CD02 /* PlayheadMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayheadMock.swift; sourceTree = "<group>"; };
+		B9D957F53B2DF264C2433908 /* ComScoreAppTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComScoreAppTag.swift; sourceTree = "<group>"; };
+		B9D95B62B18AC0558047F584 /* ComScoreDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComScoreDelegate.swift; sourceTree = "<group>"; };
+		B9D95B8DF3425B90A0C2701A /* EssUrlHelperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EssUrlHelperTests.swift; sourceTree = "<group>"; };
+		B9D95C62A798A1895DF7FE9D /* LiveBrokerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveBrokerTests.swift; sourceTree = "<group>"; };
+		B9D95D98C37EE61C5FA4EEEF /* PlayheadTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayheadTests.swift; sourceTree = "<group>"; };
+		B9D95DFBBC8C1B9760DA82D0 /* LiveProtocolMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveProtocolMock.swift; sourceTree = "<group>"; };
+		B9D95E0FBD8B94C22CFFF292 /* ComScoreStreamSense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComScoreStreamSense.swift; sourceTree = "<group>"; };
+		B9D95E2FAC2FD7739E45FBFB /* PlayerDelegateMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDelegateMock.swift; sourceTree = "<group>"; };
+		B9D95EADCB68FAD4DEAE436A /* ess_sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ess_sample.json; sourceTree = "<group>"; };
+		B9D95F19EAA86207D9C789F3 /* HttpClientMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClientMock.swift; sourceTree = "<group>"; };
+		B9D95F670675DA8AC449E81F /* EchoClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EchoClient.swift; sourceTree = "<group>"; };
+		B9D95F95DEC51BE251EF1F17 /* SpringStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringStream.swift; sourceTree = "<group>"; };
+		B9D95FD993A7EACB37C6D603 /* EchoClientLiveStreamingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EchoClientLiveStreamingTests.swift; sourceTree = "<group>"; };
+		B9E8814D6F8775DC7A7C3916 /* Pods_EchoTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EchoTVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A735485BC8A877F3E6A17A /* BrokerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrokerMock.swift; sourceTree = "<group>"; };
+		C0A735839F4506F7B9C42FED /* SpringDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringDelegateTests.swift; sourceTree = "<group>"; };
+		C0A735AC3F68D04379E45E10 /* EchoClientAVBehavioursTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EchoClientAVBehavioursTests.swift; sourceTree = "<group>"; };
+		C0A738364FDB48CDC994CA09 /* EchoClientAppBehaviourTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EchoClientAppBehaviourTests.swift; sourceTree = "<group>"; };
+		C47C74F2024AF00F760EE249 /* Pods-EchoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EchoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EchoTests/Pods-EchoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBF1CCB21E4B12E400E38A7F /* KMA_StreamMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMA_StreamMock.swift; sourceTree = "<group>"; };
+		FC0629D01EFBD12F00FBCBE6 /* LiveBrokerHeartbeatTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveBrokerHeartbeatTests.swift; sourceTree = "<group>"; };
+		FC098BE51E65D3E40066FA36 /* MediaIdTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaIdTests.swift; sourceTree = "<group>"; };
+		FC272EC71F9E4DB000DBF540 /* ComScore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ComScore.framework; path = Libraries/ComScore.framework; sourceTree = "<group>"; };
+		FC272EC81F9E4DB000DBF540 /* KMA_SpringStreams.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KMA_SpringStreams.framework; path = Libraries/KMA_SpringStreams.framework; sourceTree = "<group>"; };
+		FCC848E61E5EF0C6006F3803 /* MediaTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaTests.swift; sourceTree = "<group>"; };
+		FCECD5E4200658C900B421C5 /* RemedialUserPromiseHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemedialUserPromiseHelperTests.swift; sourceTree = "<group>"; };
+		FF756A1A224003B100B31C2B /* EchoReportingProfilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoReportingProfilesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64A75F5921E77F480003C1F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A75FB621E77FF60003C1F0 /* tvOSTracker.framework in Frameworks */,
+				64A75FBF21EF43480003C1F0 /* tvOSKMA_SpringStreams.framework in Frameworks */,
+				64A75FB921E7800C0003C1F0 /* SystemConfiguration.framework in Frameworks */,
+				3F0F7314A9E1C35D882D669F /* Pods_EchoTVOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1A68071CF6202C0036D5F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1A68711CF634090036D5F5 /* SystemConfiguration.framework in Frameworks */,
+				FC272EC91F9E4DB600DBF540 /* ComScore.framework in Frameworks */,
+				FC272ECA1F9E4DB600DBF540 /* KMA_SpringStreams.framework in Frameworks */,
+				641D6BCA2137097C004ED8C8 /* Tracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1A68121CF6202C0036D5F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1A68161CF6202C0036D5F5 /* Echo.framework in Frameworks */,
+				A3814AC0C8EC48A01D64C75E /* Pods_EchoTests.framework in Frameworks */,
+				641D6BCB2137097C004ED8C8 /* Tracker.framework in Frameworks */,
+				FC272ECB1F9E4DBA00DBF540 /* ComScore.framework in Frameworks */,
+				FC272ECC1F9E4DBA00DBF540 /* KMA_SpringStreams.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C6ABDCB7EFE3AA58B8FFD47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C47C74F2024AF00F760EE249 /* Pods-EchoTests.debug.xcconfig */,
+				9C6B1FDAF735A36C27F0C769 /* Pods-EchoTests.release.xcconfig */,
+				AD4ABE7E9D75D3541AAE7508 /* Pods-EchoTVOS.debug.xcconfig */,
+				362D59594CEBF601A1ECFC44 /* Pods-EchoTVOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		641D6BE721393774004ED8C8 /* ATInternet */ = {
+			isa = PBXGroup;
+			children = (
+				641D6BE82139379D004ED8C8 /* ATInternetDelegate.swift */,
+				641D6BED2139889D004ED8C8 /* ATInternetTag.swift */,
+			);
+			path = ATInternet;
+			sourceTree = "<group>";
+		};
+		64A75F5D21E77F480003C1F0 /* EchoTVOS */ = {
+			isa = PBXGroup;
+			children = (
+				64A75F5E21E77F480003C1F0 /* EchoTVOS.h */,
+				64A75F5F21E77F480003C1F0 /* Info.plist */,
+			);
+			path = EchoTVOS;
+			sourceTree = "<group>";
+		};
+		8D7FF544BC92A1FFE85224FD /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8D7FF7593A1134D966FBEFE8 /* ComScoreDelegateTests.swift */,
+				FCECD5E4200658C900B421C5 /* RemedialUserPromiseHelperTests.swift */,
+				C0A735839F4506F7B9C42FED /* SpringDelegateTests.swift */,
+				641D6BEA21394222004ED8C8 /* ATInternetDelegateTests.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		8D7FF7F522ACDA4A591F34ED /* Matchers */ = {
+			isa = PBXGroup;
+			children = (
+				8D7FFC04B1D94E7B0887BEBA /* LabelMatchers.swift */,
+			);
+			path = Matchers;
+			sourceTree = "<group>";
+		};
+		9B1A68011CF6202C0036D5F5 = {
+			isa = PBXGroup;
+			children = (
+				9B1A680D1CF6202C0036D5F5 /* Echo */,
+				9B1A68191CF6202C0036D5F5 /* EchoTests */,
+				64A75F5D21E77F480003C1F0 /* EchoTVOS */,
+				9B1A68721CF64B460036D5F5 /* Frameworks */,
+				9B1A680C1CF6202C0036D5F5 /* Products */,
+				2C6ABDCB7EFE3AA58B8FFD47 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9B1A680C1CF6202C0036D5F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B1A680B1CF6202C0036D5F5 /* Echo.framework */,
+				9B1A68151CF6202C0036D5F5 /* EchoTests.xctest */,
+				64A75F5C21E77F480003C1F0 /* EchoTVOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B1A680D1CF6202C0036D5F5 /* Echo */ = {
+			isa = PBXGroup;
+			children = (
+				64DB7E8622BB80A2006CF22E /* ObjCHelper.h */,
+				64DB7E8522BB80A2006CF22E /* ObjCHelper.m */,
+				9B1A680E1CF6202C0036D5F5 /* Echo.h */,
+				9B1A68101CF6202C0036D5F5 /* Info.plist */,
+				B9D9596BED97385767E8974A /* Delegates */,
+				B9D957C1BC3A9A5039E39F83 /* Client */,
+			);
+			path = Echo;
+			sourceTree = "<group>";
+		};
+		9B1A68191CF6202C0036D5F5 /* EchoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B1A681C1CF6202C0036D5F5 /* Info.plist */,
+				B9D95304AAAFCBD15C8BBC3E /* Mocks */,
+				B9D9512D19B06155E263C8AE /* Tests */,
+				B9D95EADCB68FAD4DEAE436A /* ess_sample.json */,
+				9B6CFEE01D13543A00E0045F /* EchoTests-Bridging-Header.h */,
+				8D7FF7F522ACDA4A591F34ED /* Matchers */,
+			);
+			path = EchoTests;
+			sourceTree = "<group>";
+		};
+		9B1A68721CF64B460036D5F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64A75FBE21EF43470003C1F0 /* tvOSKMA_SpringStreams.framework */,
+				64A75FB521E77FF60003C1F0 /* tvOSTracker.framework */,
+				641D6BC92137097C004ED8C8 /* Tracker.framework */,
+				FC272EC71F9E4DB000DBF540 /* ComScore.framework */,
+				FC272EC81F9E4DB000DBF540 /* KMA_SpringStreams.framework */,
+				9B6CFEDE1D13520900E0045F /* UIKit.framework */,
+				9B1A68701CF634090036D5F5 /* SystemConfiguration.framework */,
+				AB0D1BA3F85B68A02E2C935E /* Pods_EchoTests.framework */,
+				B9E8814D6F8775DC7A7C3916 /* Pods_EchoTVOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9D9512D19B06155E263C8AE /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FF756A192240039900B31C2B /* EchoReportingProfiles */,
+				8D7FF544BC92A1FFE85224FD /* Delegates */,
+				B9D95C62A798A1895DF7FE9D /* LiveBrokerTests.swift */,
+				B9D954B215AB4459D56BDAEC /* EchoClientTests.swift */,
+				B9D95D98C37EE61C5FA4EEEF /* PlayheadTests.swift */,
+				B9D950DAAE119296BACDA891 /* ScheduleTests.swift */,
+				B9D95B8DF3425B90A0C2701A /* EssUrlHelperTests.swift */,
+				B9D95FD993A7EACB37C6D603 /* EchoClientLiveStreamingTests.swift */,
+				8D7FFD20509061A0203F7648 /* OnDemandBrokerTests.swift */,
+				8D7FFAC18114FBB02157DCB2 /* BBCUserTests.swift */,
+				8D7FFBDE6DFD81D8F43C5D21 /* UserPromiseHelperTests.swift */,
+				8D7FF3A9A01FDDB515F0AD32 /* VersionNumberComparatorTests.swift */,
+				FCC848E61E5EF0C6006F3803 /* MediaTests.swift */,
+				FC098BE51E65D3E40066FA36 /* MediaIdTests.swift */,
+				C0A735AC3F68D04379E45E10 /* EchoClientAVBehavioursTests.swift */,
+				C0A738364FDB48CDC994CA09 /* EchoClientAppBehaviourTests.swift */,
+				FC0629D01EFBD12F00FBCBE6 /* LiveBrokerHeartbeatTests.swift */,
+				64B7A65520937383005DA18B /* EchoConfigTests.swift */,
+				6427E7D22195ACC300422445 /* EchoClientUserStateTests.swift */,
+				6427E7D921A5905400422445 /* LabelCleanserTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		B9D951F969849B73AD442494 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				B9D95F95DEC51BE251EF1F17 /* SpringStream.swift */,
+				B9D95608D7C419A56CF92253 /* SpringDelegate.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		B9D95304AAAFCBD15C8BBC3E /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1CCB21E4B12E400E38A7F /* KMA_StreamMock.swift */,
+				B9D956B0EB07E1B36E86CD02 /* PlayheadMock.swift */,
+				B9D9551F29569E059AEAAA6D /* ScheduleMock.swift */,
+				B9D95E2FAC2FD7739E45FBFB /* PlayerDelegateMock.swift */,
+				B9D95DFBBC8C1B9760DA82D0 /* LiveProtocolMock.swift */,
+				B9D9561EEB36A9B915467EFB /* MockClock.swift */,
+				B9D95F19EAA86207D9C789F3 /* HttpClientMock.swift */,
+				C0A735485BC8A877F3E6A17A /* BrokerMock.swift */,
+				641D6BB12135686B004ED8C8 /* GeneratedMocks.swift */,
+				641D6BB32135A6FE004ED8C8 /* OnDemandProtocolMock.swift */,
+				641D6BBB2135EB69004ED8C8 /* SpringStreamProtocolMock.swift */,
+				641D6BBD2135EF27004ED8C8 /* EchoDelegateMock.swift */,
+				641D6BBF2135F4B8004ED8C8 /* UserPromiseMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		B9D956B0AA0F5EDE5E1662C4 /* ComScore */ = {
+			isa = PBXGroup;
+			children = (
+				B9D95B62B18AC0558047F584 /* ComScoreDelegate.swift */,
+				B9D957F53B2DF264C2433908 /* ComScoreAppTag.swift */,
+				B9D95E0FBD8B94C22CFFF292 /* ComScoreStreamSense.swift */,
+			);
+			path = ComScore;
+			sourceTree = "<group>";
+		};
+		B9D957C1BC3A9A5039E39F83 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				B9D95F670675DA8AC449E81F /* EchoClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		B9D9596BED97385767E8974A /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				641D6BE721393774004ED8C8 /* ATInternet */,
+				B9D956B0AA0F5EDE5E1662C4 /* ComScore */,
+				B9D951F969849B73AD442494 /* Spring */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		FF756A192240039900B31C2B /* EchoReportingProfiles */ = {
+			isa = PBXGroup;
+			children = (
+				FF756A1A224003B100B31C2B /* EchoReportingProfilesTests.swift */,
+			);
+			path = EchoReportingProfiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64A75F5721E77F480003C1F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A75F6021E77F480003C1F0 /* EchoTVOS.h in Headers */,
+				64DB7E8A22BB80A2006CF22E /* ObjCHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1A68081CF6202C0036D5F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1A680F1CF6202C0036D5F5 /* Echo.h in Headers */,
+				64DB7E8922BB80A2006CF22E /* ObjCHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		64A75F5B21E77F480003C1F0 /* EchoTVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A75F6321E77F480003C1F0 /* Build configuration list for PBXNativeTarget "EchoTVOS" */;
+			buildPhases = (
+				9BB04AD7568313E258B5BF23 /* [CP] Check Pods Manifest.lock */,
+				64A75F5721E77F480003C1F0 /* Headers */,
+				64A75F5821E77F480003C1F0 /* Sources */,
+				64A75F5921E77F480003C1F0 /* Frameworks */,
+				64A75F5A21E77F480003C1F0 /* Resources */,
+				BC33A5F99059F61C146D1CF9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EchoTVOS;
+			productName = EchoTVOS;
+			productReference = 64A75F5C21E77F480003C1F0 /* EchoTVOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B1A680A1CF6202C0036D5F5 /* Echo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1A681F1CF6202C0036D5F5 /* Build configuration list for PBXNativeTarget "Echo" */;
+			buildPhases = (
+				A26B39401E546B730026D1D7 /* ShellScript */,
+				9B1A68061CF6202C0036D5F5 /* Sources */,
+				9B1A68071CF6202C0036D5F5 /* Frameworks */,
+				9B1A68081CF6202C0036D5F5 /* Headers */,
+				9B1A68091CF6202C0036D5F5 /* Resources */,
+				648DE9C721305DA2008AB96B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Echo;
+			productName = Echo;
+			productReference = 9B1A680B1CF6202C0036D5F5 /* Echo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B1A68141CF6202C0036D5F5 /* EchoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1A68221CF6202C0036D5F5 /* Build configuration list for PBXNativeTarget "EchoTests" */;
+			buildPhases = (
+				735B96D8D678EE02CD1BAD0B /* [CP] Check Pods Manifest.lock */,
+				FBF1CCA91E49E93D00E38A7F /* ShellScript */,
+				9B1A68111CF6202C0036D5F5 /* Sources */,
+				9B1A68121CF6202C0036D5F5 /* Frameworks */,
+				641D6BCC21371735004ED8C8 /* CopyFiles */,
+				9B1A68131CF6202C0036D5F5 /* Resources */,
+				D745EBA0D727671598FCC0FF /* [CP] Embed Pods Frameworks */,
+				641D6BD9213719CC004ED8C8 /* Copy ATI Symbols */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B1A68181CF6202C0036D5F5 /* PBXTargetDependency */,
+			);
+			name = EchoTests;
+			productName = EchoTests;
+			productReference = 9B1A68151CF6202C0036D5F5 /* EchoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B1A68021CF6202C0036D5F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = BBC;
+				TargetAttributes = {
+					64A75F5B21E77F480003C1F0 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+					9B1A680A1CF6202C0036D5F5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 1020;
+					};
+					9B1A68141CF6202C0036D5F5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 9B1A68051CF6202C0036D5F5 /* Build configuration list for PBXProject "Echo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9B1A68011CF6202C0036D5F5;
+			productRefGroup = 9B1A680C1CF6202C0036D5F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B1A680A1CF6202C0036D5F5 /* Echo */,
+				9B1A68141CF6202C0036D5F5 /* EchoTests */,
+				64A75F5B21E77F480003C1F0 /* EchoTVOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64A75F5A21E77F480003C1F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1A68091CF6202C0036D5F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1A68131CF6202C0036D5F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D95F367D92D24A436CCDC7 /* ess_sample.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		735B96D8D678EE02CD1BAD0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EchoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BB04AD7568313E258B5BF23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EchoTVOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A26B39401E546B730026D1D7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		BC33A5F99059F61C146D1CF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EchoTVOS/Pods-EchoTVOS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ComScore/SCORBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SCORBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EchoTVOS/Pods-EchoTVOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D745EBA0D727671598FCC0FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EchoTests/Pods-EchoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cuckoo/Cuckoo.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftHamcrest/Hamcrest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cuckoo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hamcrest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EchoTests/Pods-EchoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF1CCA91E49E93D00E38A7F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+				"$(PROJECT_DIR)/EchoTests/Mocks/GeneratedMocks.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm $PROJECT_DIR/EchoTests/Mocks/GeneratedMocks.swift\n# Define output file. Change \"$PROJECT_DIR/Tests\" to your test's root source folder, if it's not the default name.\nOUTPUT_FILE=\"$PROJECT_DIR/EchoTests/Mocks/GeneratedMocks.swift\"\necho \"Generated Mocks File = $OUTPUT_FILE\"\n\n# Define input directory. Change \"$PROJECT_DIR\" to your project's root source folder, if it's not the default name.\nINPUT_DIR=\"$PROJECT_DIR/Echo\"\necho \"Mocks Input Directory = $INPUT_DIR\"\n\n# Generate mock files, include as many input files as you'd like to create mocks for.\n${PODS_ROOT}/Cuckoo/run generate --no-timestamp --testable \"$PROJECT_NAME\" \\\n--output \"${OUTPUT_FILE}\" \\\n\"$INPUT_DIR/Delegates/ATInternet/ATInternetDelegate.swift\" \\\n\"$INPUT_DIR/Delegates/ATInternet/ATInternetTag.swift\" \\\n\"$INPUT_DIR/Delegates/ComScore/ComScoreAppTag.swift\" \\\n\"$INPUT_DIR/Delegates/ComScore/ComScoreStreamSense.swift\" \\\n\"$INPUT_DIR/Delegates/Spring/SpringStream.swift\" \\\n\"$INPUT_DIR/Client/EchoDevice.swift\" \\\n\"$INPUT_DIR/Live/Playhead.swift\" \\\n\"$INPUT_DIR/Identity/UserPromiseHelper.swift\" \\\n\"$INPUT_DIR/Enums/EssError.swift\" \\\n\"$INPUT_DIR/Client/EchoClient.swift\" \\\n\"$INPUT_DIR/Utils/WebviewCookieManager.swift\" \\\n\"$INPUT_DIR/Factories/DefaultDelegateFactory.swift\" \\\n\"$INPUT_DIR/Factories/BrokerFactory.swift\" \\\n\"$INPUT_DIR/Delegates/ComScore/ComScoreDelegate.swift\" \\\n\"$INPUT_DIR/Delegates/Spring/SpringDelegate.swift\" \\\n\"$INPUT_DIR/Live/Playhead.swift\" \\\n\"$INPUT_DIR/Live/LiveBroker.swift\" \\\n\"$INPUT_DIR/OnDemand/OnDemandBroker.swift\" \\\n\"$INPUT_DIR/Live/Schedule.swift\" \\\n\"$INPUT_DIR/Identity/BBCUser.swift\" \\\n\"$INPUT_DIR/../EchoTests/Mocks/LiveProtocolMock.swift\" \\\n\"$INPUT_DIR/../EchoTests/Mocks/PlayerDelegateMock.swift\" \\\n\"$INPUT_DIR/../EchoTests/Mocks/OnDemandProtocolMock.swift\" \\\n\"$INPUT_DIR/../EchoTests/Mocks/SpringStreamProtocolMock.swift\" \\\n\"$INPUT_DIR/../EchoTests/Mocks/EchoDelegateMock.swift\" \\\n\"$INPUT_DIR/../EchoTests/Mocks/PlayheadMock.swift\" \\\n\"$INPUT_DIR/../EchoTests/Mocks/UserPromiseMock.swift\" \n# ... and so forth\n\n# After running once, locate `GeneratedMocks.swift` and drag it into your Xcode test target group.\n\n#remove tvOS frameworks\nsed \"/import tvOSTracker/d\" $OUTPUT_FILE > tmp && mv tmp $OUTPUT_FILE\nsed \"/import tvOSKMA_SpringStreams/d\" $OUTPUT_FILE > tmp && mv tmp $OUTPUT_FILE\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64A75F5821E77F480003C1F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A75FA421E77F830003C1F0 /* ComScoreStreamSense.swift in Sources */,
+				64A75FA521E77F870003C1F0 /* SpringStream.swift in Sources */,
+				64A75FA021E77F7F0003C1F0 /* ATInternetDelegate.swift in Sources */,
+				64A75FA221E77F830003C1F0 /* ComScoreDelegate.swift in Sources */,
+				64A75FAF21E77F940003C1F0 /* EchoClient.swift in Sources */,
+				64A75FA321E77F830003C1F0 /* ComScoreAppTag.swift in Sources */,
+				64A75FA121E77F7F0003C1F0 /* ATInternetTag.swift in Sources */,
+				64A75FA621E77F870003C1F0 /* SpringDelegate.swift in Sources */,
+				64DB7E8822BB80A2006CF22E /* ObjCHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1A68061CF6202C0036D5F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D95EEEA1F7D4E1A16CE757 /* ComScoreDelegate.swift in Sources */,
+				B9D95B4CB64E51B8A3A184D1 /* ComScoreAppTag.swift in Sources */,
+				B9D951D6A61F02BEDE84432F /* ComScoreStreamSense.swift in Sources */,
+				B9D95275F2ED1AE1635C29AF /* SpringStream.swift in Sources */,
+				B9D95A26658F7FF09BC0CF60 /* SpringDelegate.swift in Sources */,
+				64AFF75A21428A1900F4330B /* ATInternetDelegate.swift in Sources */,
+				B9D95D82ADFF850EA9784030 /* EchoClient.swift in Sources */,
+				64AFF75C21428A1D00F4330B /* ATInternetTag.swift in Sources */,
+				64DB7E8722BB80A2006CF22E /* ObjCHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1A68111CF6202C0036D5F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCA443A1EAF6D6000C18505 /* EchoClientAVBehavioursTests.swift in Sources */,
+				FCCA443B1EAF6D6000C18505 /* EchoClientAppBehaviourTests.swift in Sources */,
+				641D6BBC2135EB69004ED8C8 /* SpringStreamProtocolMock.swift in Sources */,
+				64AFF75E2142DB1F00F4330B /* ATInternetDelegateTests.swift in Sources */,
+				FBF1CCB31E4B12E400E38A7F /* KMA_StreamMock.swift in Sources */,
+				B9D9578381D79DA071379A07 /* PlayheadMock.swift in Sources */,
+				B9D9563D9943FCD66D08864B /* LiveBrokerTests.swift in Sources */,
+				B9D953B842822B2AA792CA55 /* EchoClientTests.swift in Sources */,
+				B9D952031B99FBEF08DB69B9 /* ScheduleMock.swift in Sources */,
+				B9D9507CC7EF3D7DEA585A54 /* PlayerDelegateMock.swift in Sources */,
+				641D6BB22135686B004ED8C8 /* GeneratedMocks.swift in Sources */,
+				B9D953DE2D983CFDB36F5DEB /* LiveProtocolMock.swift in Sources */,
+				641D6BC02135F4B8004ED8C8 /* UserPromiseMock.swift in Sources */,
+				6427E7DA21A5905400422445 /* LabelCleanserTests.swift in Sources */,
+				B9D95FD69270230E934E9236 /* PlayheadTests.swift in Sources */,
+				B9D956EAF63AAE961E8C946F /* MockClock.swift in Sources */,
+				6427E7D32195ACC300422445 /* EchoClientUserStateTests.swift in Sources */,
+				B9D955AA609756BEE5066008 /* ScheduleTests.swift in Sources */,
+				B9D956FC055362186D5F77E0 /* HttpClientMock.swift in Sources */,
+				B9D95FCF0C0073D1506B7FCE /* EssUrlHelperTests.swift in Sources */,
+				64AFF75B21428A1A00F4330B /* ATInternetDelegate.swift in Sources */,
+				FCC848E71E5EF0C6006F3803 /* MediaTests.swift in Sources */,
+				B9D951CC55BADBAE2F12E847 /* ComScoreDelegate.swift in Sources */,
+				B9D955C0A5FBD08791326004 /* ComScoreAppTag.swift in Sources */,
+				B9D9563AFAE093384E53A838 /* ComScoreStreamSense.swift in Sources */,
+				B9D9589DEA3713EAF42F89F2 /* SpringStream.swift in Sources */,
+				B9D95EC2A10801B9A8FE4602 /* SpringDelegate.swift in Sources */,
+				645E0FA9209724D40075197A /* EchoClient.swift in Sources */,
+				FC0629D11EFBD12F00FBCBE6 /* LiveBrokerHeartbeatTests.swift in Sources */,
+				FC098BE61E65D3E40066FA36 /* MediaIdTests.swift in Sources */,
+				64B7A65620937383005DA18B /* EchoConfigTests.swift in Sources */,
+				B9D954D7C57B08F73A92E42A /* EchoClientLiveStreamingTests.swift in Sources */,
+				FCECD5E5200658C900B421C5 /* RemedialUserPromiseHelperTests.swift in Sources */,
+				641D6BBE2135EF27004ED8C8 /* EchoDelegateMock.swift in Sources */,
+				C0A73904F29B741D55FF5949 /* SpringDelegateTests.swift in Sources */,
+				FF756A1B224003B100B31C2B /* EchoReportingProfilesTests.swift in Sources */,
+				C0A73A1E958CBD537A3E6318 /* BrokerMock.swift in Sources */,
+				8D7FFA1F01A2132119270D47 /* ComScoreDelegateTests.swift in Sources */,
+				8D7FF2039BF3588CC10B2F49 /* LabelMatchers.swift in Sources */,
+				8D7FFAF95EA11163AA82E03C /* OnDemandBrokerTests.swift in Sources */,
+				64AFF75D21428A1E00F4330B /* ATInternetTag.swift in Sources */,
+				8D7FF01B6750665B8D6A1DEF /* BBCUserTests.swift in Sources */,
+				8D7FFB0933CF566F5DEFB627 /* UserPromiseHelperTests.swift in Sources */,
+				8D7FF8A4BDF7EC4751E0F322 /* VersionNumberComparatorTests.swift in Sources */,
+				641D6BB42135A6FE004ED8C8 /* OnDemandProtocolMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B1A68181CF6202C0036D5F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B1A680A1CF6202C0036D5F5 /* Echo */;
+			targetProxy = 9B1A68171CF6202C0036D5F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		64A75F6121E77F480003C1F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4ABE7E9D75D3541AAE7508 /* Pods-EchoTVOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)/Libraries/swift4",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = EchoTVOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.bbc.EchoTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		64A75F6221E77F480003C1F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 362D59594CEBF601A1ECFC44 /* Pods-EchoTVOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)/Libraries/swift4",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = EchoTVOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.bbc.EchoTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		9B1A681D1CF6202C0036D5F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B1A681E1CF6202C0036D5F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B1A68201CF6202C0036D5F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Libraries/swift4",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Echo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.bbc.Echo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		9B1A68211CF6202C0036D5F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Libraries/swift4",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Echo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.bbc.Echo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_VERSION = 5.0;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		9B1A68231CF6202C0036D5F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C47C74F2024AF00F760EE249 /* Pods-EchoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Echo.framework/Echo";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = EchoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.bbc.EchoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EchoTests/EchoTests-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 5.0;
+				USE_HEADERMAP = YES;
+			};
+			name = Debug;
+		};
+		9B1A68241CF6202C0036D5F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6B1FDAF735A36C27F0C769 /* Pods-EchoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Echo.framework/Echo";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = EchoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.bbc.EchoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EchoTests/EchoTests-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 5.0;
+				USE_HEADERMAP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64A75F6321E77F480003C1F0 /* Build configuration list for PBXNativeTarget "EchoTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A75F6121E77F480003C1F0 /* Debug */,
+				64A75F6221E77F480003C1F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1A68051CF6202C0036D5F5 /* Build configuration list for PBXProject "Echo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1A681D1CF6202C0036D5F5 /* Debug */,
+				9B1A681E1CF6202C0036D5F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1A681F1CF6202C0036D5F5 /* Build configuration list for PBXNativeTarget "Echo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1A68201CF6202C0036D5F5 /* Debug */,
+				9B1A68211CF6202C0036D5F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1A68221CF6202C0036D5F5 /* Build configuration list for PBXNativeTarget "EchoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1A68231CF6202C0036D5F5 /* Debug */,
+				9B1A68241CF6202C0036D5F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B1A68021CF6202C0036D5F5 /* Project object */;
+}

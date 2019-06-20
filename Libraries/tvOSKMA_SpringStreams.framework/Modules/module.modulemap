@@ -1,0 +1,10 @@
+framework module tvOSKMA_SpringStreams [extern_c] [system] {
+    umbrella header "KMA_SpringStreams.h"
+
+    export *
+    module * {
+        export *
+    }
+
+}
+

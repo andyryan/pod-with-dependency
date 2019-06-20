@@ -1,0 +1,11 @@
+framework module tvOSTracker {
+  umbrella header "tvOSTracker.h"
+
+  export *
+  module * { export * }
+}
+
+module tvOSTracker.Swift {
+    header "tvOSTracker-Swift.h"
+    requires objc
+}
